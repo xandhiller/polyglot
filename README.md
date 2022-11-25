@@ -10,4 +10,4 @@ Here is a repo where my answer is that you should be able to comfortably solve a
 2. **FFT**: Compute the DFT of a sequence by use of the Fast Fourier Transform algorithm. Should take list input from `stdin` and output results to `stdout`.
 3. **Sieve of Erastosthanes**: A prime number calculation algorithm. Should take input from `stdin` of a number $n$ where $n>1$. Output should be to `stdout`, which should be a list of prime numbers where $p \in \{2, 3, ... , n\}$.
 4. **Euclidean Algorithm**: Input should be $>2$ numbers from `stdin` and output should be to `stdout` where the `gcd()` is computed for all permutations of numbers in the input.
-5. **Caesar Cipher**: Given some natural $n$ and a sequence of characters, shift them through the alphabet by $n$. Input should be `stdin` with a flag for the shift value, e.g. `-n 3` and output should be `stdout`.
+5. **Caesar Cipher**: Given some natural $n$ and a sequence of characters, shift them through the alphabet by $n$. Non-alphabet characters can be ignored from shifting. Input should be `stdin` with a flag for the shift value, e.g. `-n 3` and output should be `stdout`.
